@@ -1,0 +1,81 @@
+:root{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #FDB0C0;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  min-width: 375px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.list-container{
+    margin:2rem auto 0 auto;
+    background-color: aliceblue;
+    max-width: 400px;
+    border: 2px dashed black;
+    padding: 1.5rem 0 2.5rem 0;
+}
+
+h2{
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.add-body{
+    margin-left: 1rem;
+    text-align: right;
+}
+.add-field{
+    padding: 0.6rem 0.5rem 0.5rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    width: 77%;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+    text-align: right;
+}
+input::placeholder{
+    color: aliceblue;
+    text-align: right;
+}
+.add-btn{
+    cursor: pointer;
+    border: none;
+    background-color: #FDB0C0;
+    padding: 0.2rem 0.7rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    height: 41px;
+}
+.list-row{
+    margin: 1rem 0 0 1rem;
+    text-align: right;
+    background-color: #FDB0C0;
+    display: flex;
+    justify-content: space-between;
+}
+.list-row button{
+    border: none;
+    padding: 0.2rem 0.6rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.list-row p{
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    font-size: 1.1rem;
+}
